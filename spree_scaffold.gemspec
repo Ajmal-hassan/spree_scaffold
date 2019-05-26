@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version     = '3.0.0'
   s.summary     = 'Easily integrate your model in Spree admin interface'
   s.description = s.summary
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.3.3'
 
   s.author    = 'Seb Weston, Alessandro Lepore'
   s.email     = 'a.lepore@freegoweb.it'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.0.0'
+  s.add_dependency 'spree_core', '~> 3.6.0'
 
   s.add_development_dependency 'capybara', '~> 2.1'
   s.add_development_dependency 'coffee-rails'
